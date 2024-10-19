@@ -1,8 +1,7 @@
 Django>=4.0,<5.0
 djangorestframework>=3.12,<4.0
 psycopg2>=2.9,<3.0  # For PostgreSQL
-# OR
-# mysqlclient>=2.0,<3.0  # For MySQL
+mysqlclient>=2.0,<3.0  # For MySQL (uncomment this if using MySQL)
 djangorestframework_simplejwt>=5.0,<6.0
 django-cors-headers>=3.11,<4.0  # Optional
-python-decouple>=3.5,<4.0
+python-decouple>=3.5,<4.0  # Optional

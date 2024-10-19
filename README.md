@@ -1,4 +1,4 @@
-# eventmgtapi
+# eventmgtapi 
 Event Management API
 Description
 This Django-based Event Management API is designed for creating and managing events and handling basic ticket purchasing. The project supports role-based access with two roles: Admin and User. The admin can create events and both roles can view events, but only users can purchase tickets. Basic JWT-based authentication is implemented for secure access.
